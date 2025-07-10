@@ -38,6 +38,7 @@ tests/tls/*
 Makefile.dep
 .vscode/*
 .idea/*
+.cache/*
 .ccls
 .ccls-cache/*
 compile_commands.json
