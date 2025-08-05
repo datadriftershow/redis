@@ -275,6 +275,13 @@ Tested with the following Docker images:
    ./src/redis-server redis-full.conf
    ```
 
+### Nix
+
+```
+nix develop
+compiledb -n make -j$(nproc)
+```
+
 ### Build and run Redis with all data structures - Ubuntu 22.04 (Jammy) / 24.04 (Noble)
 
 Tested with the following Docker image:
